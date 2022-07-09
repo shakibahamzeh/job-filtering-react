@@ -88,6 +88,15 @@
         background-color: var(--desaturated-dark-cyan);
     }
     .main{
-        margin: 4rem auto 2rem auto;
+        margin: 7rem auto;
     }
 }
+
+@media (max-width:440px) {
+    .search-container{
+    top: 10px;
+    margin: 3rem auto 8rem auto;
+}
+}
+
+

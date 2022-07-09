@@ -6,8 +6,7 @@ import "../assets/styles/position.css";
 
 const Position = ({jobData,selectHandler}) => {
     const {position,logo,company,postedAt,contract,location,tools,languages,role,level,featured} = jobData;
-    const arr = [...languages,...tools,role,level] ;
-    console.log(arr)
+    const arr = [...languages,...tools,role,level];
   return (
     <div className='wrapper'>
        
