@@ -1,0 +1,93 @@
+.header{
+    background: url('../images/bg-header-desktop.svg') no-repeat 5% 0;
+    background-size: auto;
+    height: 130px;
+    width: 100%;
+    background-color: var(--desaturated-dark-cyan);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px;
+    width: 90vw;
+    z-index: 5;
+    margin: 3rem auto 5rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 4px 7px 12px -2px rgba(123,142,142,0.85);
+    -webkit-box-shadow: 4px 7px 12px -2px rgba(123,142,142,0.85);
+    -moz-box-shadow: 4px 7px 12px -2px rgba(123,142,142,0.85);
+    border-radius: 5px;
+}
+.search-container .search-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-container p{
+    padding-left: 5px;
+}
+.search-container .search-result{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    color: var(--desaturated-dark-cyan);
+    background-color: var(--light-grayish-bg);
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+}
+.search-result .icon-wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 3px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    background-color: var(--desaturated-dark-cyan);
+    transition: 0.5s;
+}
+.search-result .icon-wrapper:hover{
+    background-color: var(--very-dark-grayish-cyan);
+}
+.search-container .search-result img{
+    display: block;
+}
+.search-container button{
+    border: none;
+    outline: none;
+    background: none;
+    color: var(--dark-grayish-cyan);
+    transition: 0.5s;
+    font-size: 20px;
+    cursor: pointer;
+}
+.search-container button:hover{
+    color: var(--desaturated-dark-cyan);
+    text-decoration: underline;
+}
+.search-container div:first-child{
+    display: flex;
+}
+.main{
+    max-width: 90vw;
+    margin: 4rem auto;
+}
+@media (max-width:480px) {
+    .header{
+        background: url('../images/bg-header-mobile.svg') no-repeat center center;
+        background-size: cover;
+        background-color: var(--desaturated-dark-cyan);
+    }
+    .main{
+        margin: 4rem auto 2rem auto;
+    }
+}
