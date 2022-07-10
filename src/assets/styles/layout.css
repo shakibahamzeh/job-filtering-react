@@ -1,8 +1,8 @@
+
 .header{
-    background: url('../images/bg-header-desktop.svg') no-repeat 5% 0;
-    background-size: auto;
+    background: url('../images/bg-header-desktop.svg') no-repeat center center;
+    background-size: cover;
     height: 130px;
-    width: 100%;
     background-color: var(--desaturated-dark-cyan);
     position: relative;
     display: flex;
@@ -99,4 +99,10 @@
 }
 }
 
+@media (max-width:330px) {
+    .search-container{
+    top: 5px;
+    margin: 3rem auto 9rem auto;
+}
+}
 

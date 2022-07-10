@@ -138,3 +138,9 @@
     margin-top: 0.4rem;
 }
 }
+@media (max-width:330px) {
+.left-container figure{
+    position: absolute;
+    bottom: 55%;
+}
+}

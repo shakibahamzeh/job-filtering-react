@@ -22,9 +22,10 @@ html{
     font-size: 15px;
     font-family: 'League Spartan', sans-serif;
 }
+
 .App{
     background-color: var(--light-grayish-bg);
-    width: 100%;
+    overflow-y: scroll;
 }
 
  
